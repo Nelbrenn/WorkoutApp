@@ -1,0 +1,66 @@
+Workout App (name tbd)
+
+I would like to create a web-based application to host and track workout progress for multiple users.
+
+We would need to create accounts for our users to sync their workouts with. An account would need an email address, name, birthday (to use to get their age for calculations), height and current weight. 
+
+Users can then create a workout plan consistening of workout routines. Each workout routine can be assigned to days of the week on their workout calendar. 
+
+Each workout routine will consist of multiple exercises. Each exercise has a different number of sets and suggested rep ranges assosicated with them. 
+
+We can have pre-defined exercises that the user can choose from. If an exercise is not listed, they can create a custom exercise. 
+When selecting an exercise, a user should be able to choose what they want to use the exercise for (strength, hypertrophy or endurance) and it'll suggest rep ranges to train in. If the user does not like the suggested ones, they can change them.
+
+
+It would be nice for each exercise to be able to list what muscles it targets as well as what equipment is used (body weight, barbell, dumb bell, cable machine, t-bar, etc) 
+as well as the type of exercise it is focusing on (hypertrophy, strength, endurance) based on the rep range being trained.
+
+Exercises would need images attached to them to help the user know how the exercise mechanics work.
+
+Views
+---------
+[HOME]
+
+[Plan Builder]
+- Select Routines for each day of the week
+- have a create button to create a routine if the one listed is not made yet.
+
+[Routine Builder]
+- Select exercises for the workout. 
+- When you select an exercise, you can select what you want to focus on (strength, hypertrophy, endurance). 
+- User can re-arrange the exercise order.
+- User can create rest periods after each exercise.
+
+[Exercise Finder]
+- A page that allows the user to find exercises.
+- Allows the user to sort based on target muscle or equipment needed.
+- When the user select selects an exercise, it will then prompt the user to select a focus from a list of options (Strength, hypertrophy, endurance, etc)
+- When you select the focus, opens a submenu listing the min and max reps.
+- have the min and max autofilled based on the focus chosen. If the user wants to change it, allow them to.
+
+[Exercise Builder]
+- Allows user to write the name of the exercise, equipment used and muscle being trained.
+
+[Workout Mode]
+- Opens workout mode when the user starts a workout
+- Workout mode should record the start time, end time and the duration of the workout.
+- Display the current duration of the workout.
+- Displays the current exercise with an image.
+- Shows the previous weight used and reps.
+- Suggests what weight to use based ont he last workout of the same routine.
+
+[Analysis Mode]
+Models
+------
+
+[Weight]
+
+[Set]
+
+[Rep]
+
+[Exercise]
+
+[Routine]
+
+[Plan]
